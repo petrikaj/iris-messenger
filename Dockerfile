@@ -26,7 +26,7 @@ RUN cat package.json | jq '.scripts.serve="sirv build --host 0.0.0.0 --port 8080
 RUN yarn build
 
 # Final image
-FROM node:19-buster-slim
+FROM node:16-buster-slim
 
 # Change directory to '/app' 
 WORKDIR /app
