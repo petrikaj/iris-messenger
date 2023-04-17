@@ -1,5 +1,5 @@
 # Build Stage
-FROM node:19-buster-slim AS build-stage
+FROM node:16-buster-slim AS build-stage
 
 # Install tools
 RUN apt-get update \
