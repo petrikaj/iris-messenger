@@ -1,7 +1,7 @@
 FROM node:16-buster-slim
 WORKDIR /iris-messenger/
 # ENV NODE_OPTIONS=--openssl-legacy-provider
-RUN apt-get update && apt-get install -y git jq python3 build-essential
+RUN apt-get update && apt-get install -y git jq sirv-cli python3 build-essential
 
 COPY package.json .
 COPY yarn.lock .
