@@ -2,6 +2,5 @@
   "name": "Docker Compose",
   "dockerComposeFile": "../docker-compose.yml",
   "service": "iris-messenger",
-  // "workspaceFolder": "/iris-messenger"
-  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "workspaceFolder": "/iris-messenger"
 }
